@@ -84,8 +84,8 @@ class ChineseChess:
 
         piece_map = chinese_pieces if self.display_mode == 'chinese' else english_pieces
 
-        print("   0 1 2 3 4 5 6 7 8")
-        print("  ──────────────────")
+        print("      0   1   2  3   4  5   6   7  8")
+        print("     ───────────────────────────────")
 
         # 定义ANSI颜色代码
         try:
@@ -160,8 +160,8 @@ class ChineseChess:
             # 这样用户输入走法时可以直接使用显示的行号
             print(f"{i} {side}|{''.join(row_display)}| {side_label}")
 
-        print("  ──────────────────")
-        print("   0 1 2 3 4 5 6 7 8")
+        print("     ───────────────────────────────")
+        print("      0   1   2  3   4  5   6   7  8")
         print(f"当前回合: {'红方' if self.current_player == 'red' else '黑方'}")
 
         # 显示最后一次移动信息
