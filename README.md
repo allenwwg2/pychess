@@ -181,7 +181,7 @@ transposition_table = {
 
 ```bash
 # 运行游戏
-python chinese_chess.py
+python pychess.py
 
 # 基本操作示例
 # 输入走法: 起始行 起始列 目标行 目标列
